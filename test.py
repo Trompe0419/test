@@ -3,9 +3,9 @@ import streamlit as st
 st.title("QCounter+")
 
 
-seven_three = st.checkbox("7o3x")
+nonx = st.checkbox("nonx")
 
-if seven_three:
+if nonx:
    
    if 'CC' not in st.session_state:
       st.session_state["CC"] = 0
